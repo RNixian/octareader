@@ -16,6 +16,8 @@ class carouselmodel extends Model
 
     protected $fillable = [
         'carousel_imgpath',
+        'display_order',
+
     ];
 
 }

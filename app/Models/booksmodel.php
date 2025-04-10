@@ -21,6 +21,15 @@ class booksmodel extends Model
         'category',
         'department',
         'pdf_filepath',
+        'coverphoto_imgpath'
     ];
 
+    public static function add_new_books($data)
+    {
+        return self::create($data);
+    }
+    
+
 }
+
+

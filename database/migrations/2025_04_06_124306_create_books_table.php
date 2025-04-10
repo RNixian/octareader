@@ -19,6 +19,7 @@ return new class extends Migration
             $table->string('category');
             $table->string('department');
             $table->string('pdf_filepath');
+         
             $table->timestamps();
         });
     }
